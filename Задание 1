@@ -3,7 +3,7 @@
 
 SELECT 
     cr.login, 
-    COUNT(ord."courierId") AS "Кол-во заказов в доставке" 
+    COUNT(ord."courierId") AS "Количество заказов в доставке" 
 FROM 
     "Couriers" AS cr 
 INNER JOIN 
